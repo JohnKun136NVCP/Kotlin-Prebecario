@@ -52,3 +52,11 @@ fun main(){
 }
 ```
 # Seguridad Nula. 🔓
+
+# Arreglos 💐
+
+# Listas 📝
+
+# Mapas 🗺️
+
+# Set 💿
