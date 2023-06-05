@@ -12,12 +12,14 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"OnCreate",Toast.LENGTH_SHORT).show()
 
     }
-    /*fun enviarMesaje(view: View){
+    //ImageBotton
+    fun enviarMesaje(view: View){
         val texto = view.contentDescription.toString()
         if(texto=="quintilliza"){
             Toast.makeText(this,"Hey hola",Toast.LENGTH_SHORT).show()
         }
-    }*/
+    }
+    //Ciclo de vida de una APP
     override fun onStart() {
         super.onStart()
         Toast.makeText(this,"OnStart",Toast.LENGTH_SHORT).show()
