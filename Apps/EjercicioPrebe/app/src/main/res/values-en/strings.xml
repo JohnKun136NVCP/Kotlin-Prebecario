@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KittiesApp</string>
+    <string name="mensajito">ONeko</string>
+    <string name="boton">Click Here!</string>
+</resources>
