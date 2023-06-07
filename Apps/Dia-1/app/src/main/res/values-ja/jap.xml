@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">PROTECO</string>
     <string name="imgboton1">五等分</string>
+    <string name="opimgboton">開く</string>
+    <string name="plus">僕のヘロアカデミア</string>
 </resources>
