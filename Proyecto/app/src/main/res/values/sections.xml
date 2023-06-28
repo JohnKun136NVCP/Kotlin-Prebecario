@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Principal</string>
+    <string name="title_miembros">Miembros</string>
+    <string name="title_notifications">Contacto</string>
+</resources>
