@@ -33,10 +33,5 @@ class MainActivity : AppCompatActivity() {
 
         val navColors = resources.getColorStateList(R.color.bottom_nav_active_colors)
         navView.itemIconTintList = navColors
-
-//        navView.itemTextColor = navColors
-//        navView.itemIconTintList = navColors
-
-
     }
 }
