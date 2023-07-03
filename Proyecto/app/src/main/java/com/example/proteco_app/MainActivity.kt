@@ -12,7 +12,6 @@ import com.example.proteco_app.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -31,5 +30,8 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        val navColors = resources.getColorStateList(R.color.bottom_nav_active_colors)
+        navView.itemIconTintList = navColors
     }
 }

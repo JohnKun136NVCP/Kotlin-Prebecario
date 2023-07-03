@@ -7,7 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="yellow">#FFFFFF00</color>
-    <color name="red">#FFFF0000</color>
+
+    <!--    Paleta de colores PROTECO :)    -->
+    <color name="amarillo_cul">#e7c71e</color>
+    <color name="amarillo_nocul">#bebb99</color>
+    <color name="azul_juerte">#063bf6</color>
+
+    <color name="yellow">#e7c71e</color>
+    <color name="red">#ff1e00</color>
     <color name="insta">#FFD62976</color>
 </resources>
