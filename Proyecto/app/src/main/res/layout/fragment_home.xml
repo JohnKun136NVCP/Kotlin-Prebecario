@@ -6,17 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
+
+        <!-- Imagen "proteco.png" -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/proteco"
+            android:scaleType="centerCrop" />
+
+        <!-- Título "¿Quiénes somos?" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Quiénes somos?"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:padding="16dp" />
+
+        <!-- Párrafo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somos el programa de computación y tecnología proveniente de la Facultad de Ingernieria, UNAM. Somos una agrupación con más de 40 años de experiencia y formando una comunidad experta en temas computacionales.
+Formamos parte de proyectos en industria, institucionales y más…Si tienes una gran idea que pueda innovar el mundo en Proteco te ayudamos a hacerla realidad."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:padding="16dp" />
+
+        <!-- Imagen "comunidad.png" -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comunidad"
+            android:scaleType="centerCrop" />
+
+        <!-- Título "¿Cómo forma parte de la familia proteco?" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Cómo formar parte de la familia proteco?"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:padding="16dp" />
+
+        <!-- Párrafo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A cada inicio de semestre se abren nuestras convocatorias para formar parte de la siguiente generación de becarios Proteco, checa nuestras redes sociales para estar al tanto de la próxima convocatoria y acompáñanos en nuestra próxima platica informativa. ¡No te pierdas de esta gran oportunidad!"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
