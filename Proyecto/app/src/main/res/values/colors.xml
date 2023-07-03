@@ -12,5 +12,8 @@
     <color name="amarillo_cul">#e7c71e</color>
     <color name="amarillo_nocul">#bebb99</color>
     <color name="azul_juerte">#063bf6</color>
-</resources>
 
+    <color name="yellow">#e7c71e</color>
+    <color name="red">#ff1e00</color>
+    <color name="insta">#FFD62976</color>
+</resources>
