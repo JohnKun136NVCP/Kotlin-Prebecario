@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">We are PROTECO</string>
+    <string name="title_screen">Contacto</string>
+    <string name="mail_title">Correo</string>
+    <string name="mail">cursosproteco@gmail.com</string>
+    <string name="Facebook_title">Facebook</string>
+    <string name="Facebook">PROTECO</string>
+    <string name="YouTube_title">YouTube</string>
+    <string name="YouTube">PROTECO Cursos</string>
+    <string name="Instagram_title">Instagram</string>
+    <string name="Instagram">\@protecounam</string>
+    <string name="LinkedIn_title">LinkedIn</string>
+    <string name="LinkedIn">PROTECO</string>
+    <string name="button">.</string>
+</resources>
